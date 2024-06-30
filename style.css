@@ -62,22 +62,68 @@ a{
 }
 
 button{
+  border-radius: 10px;
+  border-color: #f9faf8;
   padding: 6px 18px;
   background-color: #3882f6;
+  color: #f9faf8;
 }
 
 .info .container h2{
   text-align: center;
   padding: 20px;
+  font-weight: 700px;
+  font-size: 36px;
 }
 
 .boxstack{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  margin: 30px 20px 40px 20px;
+}
 
+.boxstack .box{
+  max-width: 140px;
+  text-align: center;
+}
 
 img{
+  border: #3882f6 solid;
+  border-radius: 10px;
   width: 100px;
   height: 100px;
 }
+
+.quote{
+  background-color: #e5e7eb;
+}
+
+.quote .container{
+  padding: 50px 50px;
+  max-width: 50%;
+}
+
+.quote .container footer{
+  text-align: end;
+  margin-right: 10px;
+}
+
+.actionbox .container{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+  padding: 20px ;
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+
+.footer{
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
